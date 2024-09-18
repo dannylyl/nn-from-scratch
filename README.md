@@ -13,7 +13,7 @@ I have written some utility functions and included them in the `nn_utils.py` scr
 Some utilities include:
 1. Dropout Implementation
 2. Momentum Implementation
-3. ReLU, Sigmoid, and TanH Activation Functions
+3. ReLU, Sigmoid, and tanh Activation Functions
 4. Binary Cross Entropy Loss
 5. Derivatives of the activations functions for backpropagation
 
