@@ -37,12 +37,8 @@ NN-FROM-SCRATCH
 ```
 * `nn_config.yaml` - Configuration YAML file which is used to instantiate the
   `NeuralNetworkClassifier` class
-* `src/base.py` - Added the abstract base class `Layer`, which is inherited by the
-  `FullyConnected` class
-* `src/nn_clf.py` - Python script where I wrote the `NeuralNetworkClassifier` class. The
-  class implemented is meant to meet the specifications in page 3 of the assessment PDF
-  file, and makes use of all the given hyper-parameters in the abstract base class
-  `BaseMLP`
+* `src/base.py` - Abstract base classes for the Neural Network and Layer classes
+* `src/nn_clf.py` - Python script with the `NeuralNetworkClassifier` class. 
 * `src/nn_utils.py` - Script containing the `FullyConnected` class which is instantiated
   for every hidden layer in the `NeuralNetworkClassifier`. Also contains functions for
   dropout implementation, activation functions, their derivatives, and binary cross
