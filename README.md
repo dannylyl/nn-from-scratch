@@ -23,7 +23,7 @@ NN-FROM-SCRATCH
 ├── conf
 │   └── nn_config.yaml
 ├── data
-│   └── (data not pushed to github)
+│   └── diabetes.csv
 ├── src
 │   ├── test
 │   │   ├── test_nn_clf.py
